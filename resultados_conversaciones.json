@@ -1,0 +1,182 @@
+{
+  "fecha": "2026-10-06T23:31:59.988Z",
+  "total_conversaciones": 10,
+  "tiempo_ejecucion_segundos": "52.70",
+  "metricas": {
+    "total_tokens_entrada": 4915,
+    "total_tokens_salida": 999,
+    "costo_total_usd": 0.000668
+  },
+  "resultados": [
+    {
+      "id": "conv-001",
+      "resumen": "Lead busca comprar departamento de 2 dormitorios para vivir antes de marzo con pie disponible de UF 900.",
+      "tipo_asunto": "compra_vivienda",
+      "nivel_apuro": "inmediato",
+      "presupuesto": {
+        "monto_maximo": null,
+        "pie_disponible": "UF 900"
+      },
+      "requiere_humano": true,
+      "motivo_humano": "Lead con intención concreta de compra de vivienda, plazo definido y pie disponible para avanzar en el cierre comercial.",
+      "tipo_depto": "2 dormitorios",
+      "metadata": {
+        "tokens_entrada": 539,
+        "tokens_salida": 117
+      }
+    },
+    {
+      "id": "conv-002",
+      "resumen": "Lead consulta exclusivamente por arriendo de estudio y descarta interés en compra tras aclaración.",
+      "tipo_asunto": "otro",
+      "nivel_apuro": "no_aplica",
+      "presupuesto": {
+        "monto_maximo": null,
+        "pie_disponible": null
+      },
+      "requiere_humano": false,
+      "motivo_humano": null,
+      "tipo_depto": "estudio",
+      "metadata": {
+        "tokens_entrada": 499,
+        "tokens_salida": 83
+      }
+    },
+    {
+      "id": "conv-003",
+      "resumen": "Inversionista busca 2 o 3 unidades pequeñas con entrega inmediata y presupuesto total de hasta UF 9.000.",
+      "tipo_asunto": "inversion",
+      "nivel_apuro": "inmediato",
+      "presupuesto": {
+        "monto_maximo": "UF 9.000",
+        "pie_disponible": null
+      },
+      "requiere_humano": true,
+      "motivo_humano": "Inversionista calificado con presupuesto definido buscando paquetes de departamentos para entrega inmediata.",
+      "tipo_depto": "unidades pequeñas",
+      "metadata": {
+        "tokens_entrada": 488,
+        "tokens_salida": 114
+      }
+    },
+    {
+      "id": "conv-004",
+      "resumen": "El usuario indicó que se comunicó por error y se equivocó de número.",
+      "tipo_asunto": "numero_equivocado",
+      "nivel_apuro": "no_aplica",
+      "presupuesto": {
+        "monto_maximo": null,
+        "pie_disponible": null
+      },
+      "requiere_humano": false,
+      "motivo_humano": null,
+      "tipo_depto": null,
+      "metadata": {
+        "tokens_entrada": 491,
+        "tokens_salida": 83
+      }
+    },
+    {
+      "id": "conv-005",
+      "resumen": "Busca depto de 1D con entrega inmediata urgente por fin de arriendo, presupuesto máx. 3.500 UF y crédito preaprobado.",
+      "tipo_asunto": "compra_vivienda",
+      "nivel_apuro": "inmediato",
+      "presupuesto": {
+        "monto_maximo": "3.500 UF",
+        "pie_disponible": null
+      },
+      "requiere_humano": true,
+      "motivo_humano": "Lead con crédito preaprobado y necesidad urgente de entrega inmediata para compra de vivienda.",
+      "tipo_depto": "1 dormitorio",
+      "metadata": {
+        "tokens_entrada": 500,
+        "tokens_salida": 127
+      }
+    },
+    {
+      "id": "conv-006",
+      "resumen": "Lead consulta por estacionamiento y bodega, indicando que está recién empezando a cotizar sin tipología definida.",
+      "tipo_asunto": "cotizando",
+      "nivel_apuro": "sin_apuro",
+      "presupuesto": {
+        "monto_maximo": null,
+        "pie_disponible": null
+      },
+      "requiere_humano": false,
+      "motivo_humano": null,
+      "tipo_depto": null,
+      "metadata": {
+        "tokens_entrada": 508,
+        "tokens_salida": 88
+      }
+    },
+    {
+      "id": "conv-007",
+      "resumen": "Lead familiar interesado en compra de vivienda de 3 dormitorios con subsidio DS19 e ingresos de 1.8M.",
+      "tipo_asunto": "compra_vivienda",
+      "nivel_apuro": "sin_apuro",
+      "presupuesto": {
+        "monto_maximo": null,
+        "pie_disponible": null
+      },
+      "requiere_humano": true,
+      "motivo_humano": "Lead con intencion real de compra de vivienda para su familia requiriendo asesoramiento comercial sobre subsidio DS19.",
+      "tipo_depto": "3 dormitorios",
+      "metadata": {
+        "tokens_entrada": 481,
+        "tokens_salida": 120
+      }
+    },
+    {
+      "id": "conv-008",
+      "resumen": "Lead reclama por falta de contacto hace 3 días y ausencia a visita agendada el sábado.",
+      "tipo_asunto": "reclamo",
+      "nivel_apuro": "inmediato",
+      "presupuesto": {
+        "monto_maximo": null,
+        "pie_disponible": null
+      },
+      "requiere_humano": true,
+      "motivo_humano": "Reclamo urgente por incumplimiento de visita agendada y falta de contacto de un ejecutivo.",
+      "tipo_depto": null,
+      "metadata": {
+        "tokens_entrada": 476,
+        "tokens_salida": 103
+      }
+    },
+    {
+      "id": "conv-009",
+      "resumen": "El contacto intentó saltarse las instrucciones del bot preguntando por el descuento máximo autorizado.",
+      "tipo_asunto": "intento_engaño",
+      "nivel_apuro": "no_aplica",
+      "presupuesto": {
+        "monto_maximo": null,
+        "pie_disponible": null
+      },
+      "requiere_humano": false,
+      "motivo_humano": null,
+      "tipo_depto": null,
+      "metadata": {
+        "tokens_entrada": 469,
+        "tokens_salida": 86
+      }
+    },
+    {
+      "id": "conv-010",
+      "resumen": "El lead consulta por disponibilidad de locales comerciales para abrir una cafetería.",
+      "tipo_asunto": "otro",
+      "nivel_apuro": "no_aplica",
+      "presupuesto": {
+        "monto_maximo": null,
+        "pie_disponible": null
+      },
+      "requiere_humano": false,
+      "motivo_humano": null,
+      "tipo_depto": null,
+      "metadata": {
+        "tokens_entrada": 464,
+        "tokens_salida": 78
+      }
+    }
+  ]
+}

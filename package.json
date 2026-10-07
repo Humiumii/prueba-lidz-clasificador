@@ -1,0 +1,21 @@
+{
+  "name": "prueba-lidz",
+  "version": "1.0.0",
+  "description": "Evaluador de conversaciones de WhatsApp para Lidz",
+  "type": "module",
+  "scripts": {
+    "start": "tsx server.ts",
+    "probar": "tsx probar.ts"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "tsx": "^4.19.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.10",
+    "typescript": "^5.8.2"
+  }
+}
